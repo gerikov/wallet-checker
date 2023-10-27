@@ -24,7 +24,9 @@ const Search = () => {
         <input type='text' placeholder='Enter your wallet' value={wallet} onChange={onChange} />
       </div>
       <button onClick={handleClick}>Check</button>
-
+      <div className={styles.confetti}>
+        <Confetti recycle={false} run={contain === true} numberOfPieces={1000} />
+      </div>
       {contain === false && <div className={styles.not}>You are not eligible for claim</div>}
       {contain === true && (
         <div className={styles.good}>
