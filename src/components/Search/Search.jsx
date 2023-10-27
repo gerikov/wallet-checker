@@ -37,7 +37,8 @@ const Search = () => {
         </div>
       )}
       <div className={styles.footer}>
-        Made by <a href='https://twitter.com/gerikov_sol'>gerikov</a>, help me with a retweet.
+        Made by <a href='https://twitter.com/gerikov_sol'>gerikov</a>, help me with a{' '}
+        <a href='https://x.com/gerikov_sol/status/1718021891963617445?s=20'>retweet</a>.
       </div>
     </div>
   )
